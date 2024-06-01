@@ -6,6 +6,10 @@ body{
     background-color: #fff;
 }
 
+.ui-box-2{
+    background-color: rgb(30, 30, 30);
+}
+
 .tags-footer-first-ui p{
     background-color: black;
     color: #fff;
