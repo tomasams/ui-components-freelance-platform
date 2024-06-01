@@ -1,16 +1,179 @@
 body{
     background-color: rgb(239, 238, 238);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .ui-box-1{
-    background-color: #fff;
+    position: relative;
+    width: 380px;
+    height: auto;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background: linear-gradient(#fefefe, #fefefe) padding-box, linear-gradient(to top, #9C9C9C, #E2E2E2) border-box;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+
+
+.ui-box-1 header{
+    position: relative;
+    display: flex;
+    margin: 6% 6% 3% 6%;
+}
+
+.first-ui-face-image{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-right: 4%;
+}
+
+.name-post-time-container{
+    overflow: hidden;
+}
+
+.name-person{
+    margin-bottom: 0;
+    margin-top: 6%;
+    color: black;
+    font-weight: 600;
+    
+}
+
+.time-posted{
+    margin-top: 0;
+    color: gray;
+    font-size: 70%;
+}
+
+.like-button{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    border: 1.9px solid transparent;
+    background: linear-gradient(#F6F7F8, #F6F7F8) padding-box, linear-gradient(to top, #9C9C9C, #E2E2E2) border-box;
+    margin-left: 30%;
+}
+
+.like-button:hover{
+    background: linear-gradient(#f0f0f0, #f0f0f0) padding-box, linear-gradient(to top, #9C9C9C, #E2E2E2) border-box;
+
+}
+
+.like-button img{
+    position: relative;
+    transform: translate(-12%, -4%);
+    text-align: center;
+    align-items: center;
+    padding: 45% 45% 45% 45%;   
+}
+
+.like-button img:hover{
+    filter: invert(46%) sepia(67%) saturate(2789%) hue-rotate(330deg) brightness(98%) contrast(101%);
+}
+
+.first-ui-top h2{
+    font-size: 110%;
+    margin: 0 10% 0 6%;
+    font-weight: 600;
+    color: #0a0a0a;
+}
+
+.text-below-h2{
+    color: gray;
+    font-size: 80%;
+    margin-left: 6%;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.tags-footer-first-ui{
+    display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.tags-text{
+    background-color: #DCE5FC;
+    color: #000;
+    padding: 2px;
+    border-radius: 6px;
+    margin-right: 2%;
+    margin-bottom: 0;
+}
+
+.first-ui-separator{
+    border-top: 1px dashed rgb(212, 212, 212);
+    margin: 6% 6%;
+}
+
+.first-ui-bottom{
+    margin: 6%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price-hour{
+    margin-top:0;
+    margin-bottom: 0;
+    margin-right: 100%;
+    font-weight: 500;
+    font-size: 200%;
+}
+
+.work-method{
+    color: gray;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+.apply-button{
+    flex-basis: 100%;
+    background-color: #3A80F7;
+    border: none;
+    border-radius: 20px;
+    height: 70px;
+    color: white;
+    font-weight: 600;
+}
+
+.apply-button img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(211deg) brightness(114%) contrast(101%);
+    margin-right: 2%;
+    transform: translate(-10%, 10%);
+}
+
+.apply-button:hover{
+    color: #fff900;
+    background-color: #295bb3;
+}
+
+.apply-button:hover img{
+    filter: invert(89%) sepia(20%) saturate(3993%) hue-rotate(8deg) brightness(101%) contrast(109%);
+    animation: duration timing-function delay iteration-count direction fill-mode;
+    /*transition: filter 0.8s ease;*/
+    animation: colorChange 1.5s linear infinite;
+}
+
+@keyframes colorChange{
+    0%, 50%{
+        filter: invert(89%) sepia(20%) saturate(3993%) hue-rotate(8deg) brightness(101%) contrast(109%)
+    }
+    51%, 100%{
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(211deg) brightness(114%) contrast(101%);
+    }
 }
 
 .ui-box-2{
     background-color: rgb(30, 30, 30);
 }
 
-.tags-footer-first-ui p{
-    background-color: black;
-    color: #fff;
+.ui-box-3{
+    background: linear-gradient(to bottom, #f9f8f9, #E4BBE2)
 }
+
+.ui-box-4{
+    background-color: #f5f5f5;
+}
+
