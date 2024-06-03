@@ -2,6 +2,8 @@
     --colors-height: 48px;
     --colors-width: 9px;
     --colors-radius: 20px;
+    --color-bar-height: 30px;
+    --color-bar-radius: 10px;
 }
 
 body{
@@ -590,7 +592,7 @@ body{
     width: 380px;
     border-radius: 30px;
     position: absolute;
-    top: 47%;
+    top: 50%;
     left: 15%;
     text-align: center;
 }
@@ -632,3 +634,122 @@ body{
     margin-left: 4%;
 }
 
+.ui-box-4 header{
+    display: flex;
+    margin: 0 5%;
+    justify-content: space-between
+}
+
+.ui-box-4 header h2{
+    font-weight: 500;
+}
+
+.ui-box-4 header button{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 19.92px;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #d6d6d6;
+    border: 1px solid rgb(80, 47, 47);
+}
+
+.ui-box-4 header button img{
+    width: 18%;
+}
+
+.ui-box-4 header button p{
+    margin: 0;
+    font-weight: 500;
+}
+
+.income-distribution{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+}
+
+.month-income{
+    font-size: 150%;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.month-measured{
+    color: gray;
+    margin-top: 0;
+    font-size: 120%;
+    margin-right: 50%;
+}
+
+.color-bar-1{
+    height: var(--color-bar-height);
+    border-radius: var(--color-bar-radius);
+    width: 20%;
+    background-color: #3c94f7;
+    margin-left: 17%;
+}
+
+.color-bar-2{
+    background-color: #ff91e0;
+    height: var(--color-bar-height);
+    border-radius: var(--color-bar-radius);
+    width: 15%;
+    margin-left: 1%;
+}
+
+.color-bar-3{
+    background-color: #fdbd12;
+    height: var(--color-bar-height);
+    border-radius: var(--color-bar-radius);
+    width: 5%;
+    margin-left: 1%;
+}
+
+.color-bar-4{
+    background-color: #f76a37;
+    height: var(--color-bar-height);
+    border-radius: var(--color-bar-radius);
+    width: 10%;
+    margin-left: 1%;
+}
+
+.income-month-separator{
+    width: 80%;
+    color: gray;
+}
+
+.color-bar-5{
+    height: var(--color-bar-height);
+    border-radius: var(--color-bar-radius);
+    width: 10%;
+    background-color: #3c94f7;
+    margin-left: 15%;
+}
+
+.color-bar-6{
+    background-color: #ff91e0;
+    height: var(--color-bar-height);
+    border-radius: var(--color-bar-radius);
+    width: 25%;
+    margin-left: 1%;
+}
+
+.color-bar-7{
+    background-color: #fdbd12;
+    height: var(--color-bar-height);
+    border-radius: var(--color-bar-radius);
+    width: 15%;
+    margin-left: 1%;
+}
+
+.color-bar-8{
+    background-color: #f76a37;
+    height: var(--color-bar-height);
+    border-radius: var(--color-bar-radius);
+    width: 2%;
+    margin-left: 1%;
+}
