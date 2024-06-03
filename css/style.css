@@ -171,7 +171,6 @@ body{
 
 .apply-button:hover img{
     filter: invert(89%) sepia(20%) saturate(3993%) hue-rotate(8deg) brightness(101%) contrast(109%);
-    animation: duration timing-function delay iteration-count direction fill-mode;
     /*transition: filter 0.8s ease;*/
     animation: colorChange 1.5s linear infinite;
 }
@@ -219,6 +218,11 @@ body{
     margin-right: 5%;
     margin-left: 50%;
 }
+
+.stats-button:hover{
+    background-color: #131212;
+}
+
     
 .stats-button p{
     margin: 0;
@@ -337,6 +341,10 @@ body{
     display: flex;
 }
 
+.color-gradient-container:hover{
+    transform:scale(1.5)
+}
+
 .color-gradient-1{
     margin-right: 3px;
     width: var(--colors-width);
@@ -344,6 +352,7 @@ body{
     border-radius: var(--colors-radius);
     background-color: #0d7fff;
 }
+
 .color-gradient-2{
     margin-right: 3px;
     width: var(--colors-width);
@@ -605,6 +614,19 @@ body{
     width: 50%;
 }
 
+.chain-image:hover{
+    animation: imgRotation 1s linear ;
+}
+
+@keyframes imgRotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .ui-box-3 h2{
     text-align: center;
 }
@@ -622,6 +644,10 @@ body{
     height: 60px;
     border-radius: 20px;
     margin-bottom: 5%;
+}
+
+.ui-box-3 button:hover{
+    background-color: #474747;
 }
 
 .ui-box-4{
