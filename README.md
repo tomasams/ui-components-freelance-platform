@@ -6,3 +6,7 @@ En esta oportunidad la pagina que se busca replicar es la siguiente: https://dri
 
 
 El resultado que obtuve se puede ver en el siguiente link: https://tomasams.github.io/ui-components-freelance-platform/
+
+Y dejo una imagen como modo de visualizacion rapida:
+![image](https://github.com/tomasams/ui-components-freelance-platform/assets/87155994/0d539d25-e8f5-4996-9a31-95bf5925bdf5)
+
